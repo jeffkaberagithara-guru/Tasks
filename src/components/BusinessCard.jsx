@@ -1,6 +1,6 @@
 function BusinessCard({name, title, image, phone}) {
     return (
-        <div className="p-4 sm:p-5 w-full max-w-xs sm:max-w-sm border cursor-pointer rounded-lg shadow-md hover:shadow-lg transition-all duration-300 bg-blue-950 text-white hover:-translate-y-1">
+        <div className="p-4 mt-10 sm:p-5 w-full max-w-xs sm:max-w-sm border cursor-pointer rounded-lg shadow-md hover:shadow-lg transition-all duration-300 bg-blue-950 text-white">
             <div className="flex flex-col items-center text-center">
                 <img 
                     src={image} 
