@@ -2,7 +2,9 @@ import './App.css'
 import BusinessCard from './components/BusinessCard'
 import Navigation from './components/Navigation'
 import Screen from './components/Screen'
-import {Routes,Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import Card from './components/Card'
+import Menu from './components/Menu'
 
 function App() {
   return (
@@ -20,7 +22,14 @@ function App() {
         <BusinessCard name="Bob Karanja" title="Clerk" image="/headshot4.jpg" phone="+254 7733696764" />
       </div>
         </> }/>
-        <Route path='/screen' element={<Screen />}/>
+        <Route path='/screen' element={<Screen />} />
+        <Route path='/card' element={<Card />} />
+        <Route path='/menu' element={<>
+          <div className='mt-30'>
+            <Menu />
+          </div>
+        </>}/>
+
       </Routes>
       
     </>
