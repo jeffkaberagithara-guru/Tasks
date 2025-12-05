@@ -25,7 +25,7 @@ function App() {
         <Route path='/screen' element={<Screen />} />
         <Route path='/card' element={<Card />} />
         <Route path='/menu' element={<>
-          <div className='mt-30'>
+          <div className='mt-30 '>
             <Menu />
           </div>
         </>}/>
